@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceacb4b8d441c78498423d15fb559b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 8141572846774231679, guid: cd6a7ac6b3183f9499682fceefc1abb8, type: 3}
+  enemyPrefab: {fileID: 1989984132946915037, guid: e5fcce09071d5af4aa7cbf09bc10fa43, type: 3}
   healthBarPrefab: {fileID: 8983838545167850738, guid: 6614209b04d5ad74dbad2270b9ad62e0, type: 3}
   spawnPoint: {fileID: 1160646961}
   spawnButton: {fileID: 914718020}
