@@ -4,24 +4,15 @@ public class Enemy : MonoBehaviour
 {
     public float maxHealth = 100f; // Máu tối đa của quái vật
     public float currentHealth; // Máu hiện tại của quái vật
-    public GameObject healthBar; // Tham chiếu đến thanh máu
-    private float lastHitTime; // Thời gian bị bắn gần nhất
-    private bool isHealthBarVisible = false; // Trạng thái hiển thị của thanh máu
-    public float healthBarDisplayDuration = 2f; // Thời gian hiển thị thanh máu
+    private HealthBarSlider healthBarSlider;
 
     void Start()
     {
         currentHealth = maxHealth; // Thiết lập máu ban đầu
-        healthBar.SetActive(false); // Ẩn thanh máu ban đầu
-    }
-
-    void Update()
-    {
-        // Kiểm tra thời gian từ lần bị bắn cuối cùng
-        if (isHealthBarVisible && Time.time - lastHitTime >= healthBarDisplayDuration)
+        healthBarSlider = GetComponentInChildren<HealthBarSlider>(); // Tìm thành phần thanh máu con
+        if (healthBarSlider != null)
         {
-            healthBar.SetActive(false);
-            isHealthBarVisible = false;
+            healthBarSlider.gameObject.SetActive(true); // Hiển thị thanh máu khi sinh ra
         }
     }
 
@@ -29,12 +20,10 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage; // Giảm máu khi bị tấn công
 
-        // Cập nhật thời gian bị bắn gần nhất và hiển thị thanh máu
-        lastHitTime = Time.time;
-        if (!isHealthBarVisible)
+        // Cập nhật giá trị thanh máu
+        if (healthBarSlider != null)
         {
-            healthBar.SetActive(true);
-            isHealthBarVisible = true;
+            healthBarSlider.healthSlider.value = currentHealth; // Cập nhật giá trị của Slider theo máu hiện tại của quái vật
         }
 
         // Kiểm tra nếu máu bằng 0 hoặc ít hơn
@@ -47,7 +36,10 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         // Hủy hoặc ẩn thanh máu khi quái vật chết
-        Destroy(healthBar); 
+        if (healthBarSlider != null)
+        {
+            Destroy(healthBarSlider.gameObject);
+        }
         
         Destroy(gameObject); // Hủy quái vật
     }

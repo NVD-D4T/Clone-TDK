@@ -6,6 +6,7 @@ public class AI : MonoBehaviour
     private WP Wpoint;
     private int waypointIndex = 0;
     private bool isMoving = true;
+    private PlayerHealth playerHealth; // Tham chiếu đến PlayerHealth
 
     void Start()
     {
@@ -15,6 +16,9 @@ public class AI : MonoBehaviour
         {
             Wpoint = waypointObject.GetComponent<WP>();
         }
+
+        // Tìm đối tượng PlayerHealth
+        playerHealth = Object.FindFirstObjectByType<PlayerHealth>();
     }
 
     void Update()
@@ -33,10 +37,14 @@ public class AI : MonoBehaviour
         {
             waypointIndex++;
 
-            // Nếu đã đi hết tất cả waypoint, dừng lại ở waypoint cuối cùng
+            // Nếu đã đi hết tất cả waypoint, giảm máu của người chơi và hủy đối tượng quái vật
             if (waypointIndex >= Wpoint.waypoints.Length)
             {
-                isMoving = false;
+                if (playerHealth != null)
+                {
+                    playerHealth.TakeDamage(1);
+                }
+                Destroy(gameObject);
             }
         }
     }
