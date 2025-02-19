@@ -31,6 +31,6 @@ public class BlinkText : MonoBehaviour
     // Hàm này sẽ được gọi khi nhấn vào nút
     public void OnTapToStart()
     {
-        SceneManager.LoadScene("SampleScene"); // Thay "GameScene" bằng tên cảnh game của bạn
+        SceneManager.LoadScene("Menu"); // Thay "GameScene" bằng tên cảnh game của bạn
     }
 }
