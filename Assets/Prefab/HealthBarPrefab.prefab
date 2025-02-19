@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3344feb5c0f825f429371c3c6f2bbab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 6238838344536244834, guid: e5fcce09071d5af4aa7cbf09bc10fa43, type: 3}
+  enemy: {fileID: 3956778509808148479, guid: 9518081d8ef921047a6ad64c9cd69687, type: 3}
   healthSlider: {fileID: 3286201914016964855}
 --- !u!114 &8792449161995107650
 MonoBehaviour:

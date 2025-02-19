@@ -29,6 +29,11 @@ public class AI : MonoBehaviour
             return;
         }
 
+        // Quay mặt về hướng waypoint hiện tại
+        Vector3 direction = Wpoint.waypoints[waypointIndex].position - transform.position;
+        Quaternion toRotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, Time.deltaTime * speed);
+
         // Di chuyển đến waypoint hiện tại
         transform.position = Vector3.MoveTowards(transform.position, Wpoint.waypoints[waypointIndex].position, speed * Time.deltaTime);
 
