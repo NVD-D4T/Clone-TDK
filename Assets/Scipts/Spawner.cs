@@ -4,21 +4,19 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject enemyPrefab; // Prefab của quái vật
-    public GameObject healthBarPrefab; // Prefab của thanh máu
-    public Transform spawnPoint; // Điểm xuất hiện quái vật
-    public Button spawnButton; // Nút nhấn để tạo quái vật
-    public Canvas canvas; // Canvas để hiển thị thanh máu
-    public int wave1Count = 5;
-    public int wave2Count = 10;
-    public int wave3Count = 20;
+    public GameObject enemyType1Prefab;
+    public GameObject enemyType2Prefab;
+    public GameObject enemyType3Prefab;
+    public GameObject healthBarPrefab;
+    public Transform spawnPoint;
+    public Button spawnButton;
+    public Canvas canvas;
     private int currentWave = 0;
 
     void Start()
     {
-        // Thêm sự kiện OnClick cho nút
         spawnButton.onClick.AddListener(() => { if (!HasActiveEnemies()) SpawnWave(); });
-        StartCoroutine(StartWaveAfterDelay(10f, wave1Count)); // Bắt đầu đợt quái đầu tiên sau 10 giây
+        StartCoroutine(StartWaveAfterDelay(10f)); // Bắt đầu đợt quái đầu tiên sau 10 giây
     }
 
     void SpawnWave()
@@ -27,79 +25,73 @@ public class Spawner : MonoBehaviour
         {
             if (currentWave == 0)
             {
-                StartCoroutine(SpawnEnemies(wave1Count));
+                StartCoroutine(SpawnEnemies(5, 0, 0)); // Đợt 1: 5 con loại 1
             }
             else if (currentWave == 1)
             {
-                StartCoroutine(SpawnEnemies(wave2Count));
+                StartCoroutine(SpawnEnemies(5, 5, 0)); // Đợt 2: 5 con loại 1 và 5 con loại 2
             }
             else if (currentWave == 2)
             {
-                StartCoroutine(SpawnEnemies(wave3Count));
+                StartCoroutine(SpawnEnemies(5, 7, 8)); // Đợt 3: 5 con loại 1, 7 con loại 2 và 8 con loại 3
             }
         }
     }
 
-    IEnumerator StartWaveAfterDelay(float delay, int waveCount)
+    IEnumerator StartWaveAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        if (!HasActiveEnemies()) // Kiểm tra nếu không có con quái nào còn hoạt động
+        if (!HasActiveEnemies())
         {
-            StartCoroutine(SpawnEnemies(waveCount));
+            SpawnWave();
         }
     }
 
-    IEnumerator SpawnEnemies(int enemyCount)
+    IEnumerator SpawnEnemies(int type1Count, int type2Count, int type3Count)
     {
-        for (int i = 0; i < enemyCount; i++)
+        for (int i = 0; i < type1Count; i++)
         {
-            // Sinh ra quái vật tại vị trí cố định
-            GameObject enemy = Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
-
-            // Tạo thanh máu và gán nó cho quái vật
-            GameObject healthBar = Instantiate(healthBarPrefab, canvas.transform);
-            HealthBarSlider healthBarSlider = healthBar.GetComponent<HealthBarSlider>();
-            healthBarSlider.enemy = enemy.GetComponent<Enemy>();
-
-            // Đặt thanh máu là con của canvas để nó hiển thị trên màn hình
-            healthBar.transform.SetParent(canvas.transform);
-
-            // Cài đặt RectTransform của thanh máu
-            RectTransform healthBarRect = healthBar.GetComponent<RectTransform>();
-            healthBarRect.anchorMin = new Vector2(0.5f, 0); // Đặt anchor ở giữa đáy
-            healthBarRect.anchorMax = new Vector2(0.5f, 0); // Đặt anchor ở giữa đáy
-            healthBarRect.pivot = new Vector2(0.5f, 0); // Đặt pivot ở giữa đáy
-            healthBarRect.anchoredPosition = new Vector2(0, 2); // Cài đặt vị trí của thanh máu phía trên đầu quái vật
-
-            // Gán đối tượng quái vật cho script FollowEnemy
-            FollowEnemy followEnemyScript = healthBar.GetComponent<FollowEnemy>();
-            if (followEnemyScript != null)
-            {
-                followEnemyScript.SetTarget(enemy.transform);
-            }
-
-            // Đợi 1 giây trước khi tạo quái vật tiếp theo
+            SpawnEnemy(enemyType1Prefab);
+            yield return new WaitForSeconds(1f);
+        }
+        for (int i = 0; i < type2Count; i++)
+        {
+            SpawnEnemy(enemyType2Prefab);
+            yield return new WaitForSeconds(1f);
+        }
+        for (int i = 0; i < type3Count; i++)
+        {
+            SpawnEnemy(enemyType3Prefab);
             yield return new WaitForSeconds(1f);
         }
         currentWave++;
-        
-        // Kiểm tra nếu đã hết tất cả đợt quái, kết thúc
         if (currentWave < 3)
         {
-            if (currentWave == 1)
-            {
-                StartCoroutine(StartWaveAfterDelay(15f, wave2Count)); // Bắt đầu đợt quái thứ 2 sau 15 giây
-            }
-            else if (currentWave == 2)
-            {
-                StartCoroutine(StartWaveAfterDelay(15f, wave3Count)); // Bắt đầu đợt quái thứ 3 sau 15 giây
-            }
+            StartCoroutine(StartWaveAfterDelay(15f)); // Chuyển sang đợt quái tiếp theo sau 15 giây
+        }
+    }
+
+    void SpawnEnemy(GameObject enemyPrefab)
+    {
+        GameObject enemy = Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        GameObject healthBar = Instantiate(healthBarPrefab, canvas.transform);
+        HealthBarSlider healthBarSlider = healthBar.GetComponent<HealthBarSlider>();
+        healthBarSlider.enemy = enemy.GetComponent<Enemy>();
+        healthBar.transform.SetParent(canvas.transform);
+        RectTransform healthBarRect = healthBar.GetComponent<RectTransform>();
+        healthBarRect.anchorMin = new Vector2(0.5f, 0);
+        healthBarRect.anchorMax = new Vector2(0.5f, 0);
+        healthBarRect.pivot = new Vector2(0.5f, 0);
+        healthBarRect.anchoredPosition = new Vector2(0, 2);
+        FollowEnemy followEnemyScript = healthBar.GetComponent<FollowEnemy>();
+        if (followEnemyScript != null)
+        {
+            followEnemyScript.SetTarget(enemy.transform);
         }
     }
 
     bool HasActiveEnemies()
     {
-        // Kiểm tra nếu có bất kỳ đối tượng nào có tag "Enemy"
         return GameObject.FindWithTag("Enemy") != null;
     }
 }

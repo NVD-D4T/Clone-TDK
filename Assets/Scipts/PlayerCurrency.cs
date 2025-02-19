@@ -32,7 +32,7 @@ public class PlayerCurrency : MonoBehaviour
 
     private void UpdateCurrencyUI()
     {
-        currencyText.text = "Currency: " + currentCurrency.ToString(); // Cập nhật text UI hiển thị tiền
+        currencyText.text = "" + currentCurrency.ToString(); // Cập nhật text UI hiển thị tiền
     }
 
     public int GetCurrentCurrency()

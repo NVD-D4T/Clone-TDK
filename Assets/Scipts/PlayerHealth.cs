@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void UpdateHealthUI()
     {
-        healthText.text = "Health: " + currentHealth.ToString(); // Cập nhật text UI hiển thị máu
+        healthText.text = "       " + currentHealth.ToString(); // Cập nhật text UI hiển thị máu
     }
 
     private void GameOver()
