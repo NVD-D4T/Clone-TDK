@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class TurretPurchaseButton : MonoBehaviour
 {
-    public TurretPurchase turretPurchase; // Tham chiếu đến TurretPurchase
-    private TurretShop turretShop; // Tham chiếu đến TurretShop
+    public TurretPurchase turretPurchase;
+    private TurretShop turretShop;
+    public int turretType;
 
     void Start()
     {
-        turretShop = Object.FindFirstObjectByType<TurretShop>(); // Tìm đối tượng TurretShop
+        turretShop = Object.FindFirstObjectByType<TurretShop>();
     }
 
     public void OnPurchaseButtonClicked()
     {
         if (turretShop != null)
         {
-            Vector3 purchasePosition = turretShop.GetPurchasePosition(); // Lấy vị trí mua trụ
-            turretPurchase.PurchaseTurret(purchasePosition); // Mua trụ tại vị trí đã lưu
-            turretShop.CloseShop(); // Ẩn cửa hàng sau khi mua trụ
+            Vector3 purchasePosition = turretShop.GetPurchasePosition();
+            turretPurchase.PurchaseTurret(purchasePosition, turretType);
+            turretShop.CloseShop();
         }
     }
 }
