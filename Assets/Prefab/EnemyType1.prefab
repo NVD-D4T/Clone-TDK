@@ -353,6 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  currencyReward: 10
 --- !u!114 &3421320995388248438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb71bc5bf239f694e9dbdf46308dd22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
 --- !u!1 &1908663359721051964
 GameObject:
   m_ObjectHideFlags: 0
