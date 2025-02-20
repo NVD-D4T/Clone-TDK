@@ -2,25 +2,27 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    public float detectionRange = 10f;
-    public GameObject bulletPrefab;
-    public Transform firePoint;
-    public float fireRate = 1f;
+    public float detectionRange = 10f; // Tầm phát hiện quái vật
+    public GameObject bulletPrefab; // Prefab của đạn
+    public Transform firePoint; // Điểm bắn đạn
+    public float fireRate = 1f; // Tốc độ bắn (đạn/giây)
     private float fireCooldown = 0f;
-    public int turretCost = 20;
 
     void Update()
     {
+        // Kiểm tra cooldown bắn
         if (fireCooldown > 0)
         {
             fireCooldown -= Time.deltaTime;
         }
 
+        // Tìm quái vật trong tầm
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, detectionRange);
         foreach (var hitCollider in hitColliders)
         {
             if (hitCollider.CompareTag("Enemy"))
             {
+                // Bắn đạn nếu có quái vật trong tầm và cooldown đã hết
                 if (fireCooldown <= 0)
                 {
                     Shoot(hitCollider.transform);
@@ -32,6 +34,7 @@ public class Turret : MonoBehaviour
 
     void Shoot(Transform target)
     {
+        // Tạo đạn và bắn về phía mục tiêu
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bulletScript = bullet.GetComponent<Bullet>();
         if (bulletScript != null)
@@ -40,6 +43,7 @@ public class Turret : MonoBehaviour
         }
     }
 
+    // Vẽ tầm phát hiện trong chế độ Editor
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
