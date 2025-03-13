@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Turret/AD_TOWER (1)/CUNG (1).meta
 guid: 017782cbe1a2213409ac754bf6728383
+========
+guid: c6474392057878540864fb121090bc6c
+>>>>>>>> Stashed changes:Assets/Character/select_tower/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -11,12 +11,18 @@ public class TurretShop : MonoBehaviour
     {
         shopUI.SetActive(false); // Ẩn UI cửa hàng lúc đầu
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         closeButton.onClick.AddListener(CloseShop); // Gắn sự kiện khi nhấn nút tắt cửa hàng
 =======
+=======
+>>>>>>> Stashed changes
         if (closeButton != null)
         {
             closeButton.onClick.AddListener(CloseShop); // Kết nối sự kiện khi nhấn nút tắt cửa hàng
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 

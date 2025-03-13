@@ -10,6 +10,9 @@ public class TurretPurchaseButton : MonoBehaviour
     public TurretPurchase turretPurchase; // Tham chiếu đến TurretPurchase
     private TurretShop turretShop; // Tham chiếu đến TurretShop
     public int turretType; // Loại trụ
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     void Start()

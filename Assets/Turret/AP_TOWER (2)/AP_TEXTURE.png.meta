@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Turret/AP_TOWER (2)/AP_TEXTURE.png.meta
 guid: 5a36815923531e54584924bbad1869af
+========
+guid: 372d668b7ed24fc4da082c4ce824c2c1
+>>>>>>>> Stashed changes:Assets/Character/select_tower/Green_Plus_Icon_0220125450_texture.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

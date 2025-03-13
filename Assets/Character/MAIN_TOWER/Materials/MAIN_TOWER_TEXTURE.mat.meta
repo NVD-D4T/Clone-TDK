@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Character/MAIN_TOWER/Materials/MAIN_TOWER_TEXTURE.mat.meta
 guid: a33c62367b9015f478241d6e2af13d3e
 NativeFormatImporter:
+========
+guid: 8dd1222819bb3874599752e842d715de
+PrefabImporter:
+>>>>>>>> Stashed changes:Assets/Prefab/Shop.prefab.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

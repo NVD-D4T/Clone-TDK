@@ -51,7 +51,12 @@ public class TurretPurchase : MonoBehaviour
         {
             // Thay đổi vị trí để trụ đặt phía trên đối tượng turretShop
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             Vector3 placementPosition = new Vector3(position.x, position.y + 0.7f, position.z);
+=======
+            Vector3 placementPosition = new Vector3(position.x, position.y + 2.0f, position.z);
+            
+>>>>>>> Stashed changes
 =======
             Vector3 placementPosition = new Vector3(position.x, position.y + 2.0f, position.z);
             

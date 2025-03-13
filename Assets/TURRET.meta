@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Turret.meta
 guid: 278ed26c34327d3489b5061230104c1d
+========
+guid: 09d4ad68a203b194b91e90d94be30a77
+>>>>>>>> Stashed changes:Assets/Character/select_tower.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

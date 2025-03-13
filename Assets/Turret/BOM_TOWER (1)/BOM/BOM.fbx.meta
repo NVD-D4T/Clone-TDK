@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Turret/BOM_TOWER (1)/BOM/BOM.fbx.meta
 guid: d2c9fe9d6c3768a4d9dae47b0bdc34b5
+========
+guid: 2992be1296900d84ba4556071dc03302
+>>>>>>>> Stashed changes:Assets/Turret/AD_TOWER (1)/CUNG (1)/CUNG.fbx.meta
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []

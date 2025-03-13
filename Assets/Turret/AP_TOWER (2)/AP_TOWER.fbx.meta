@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Turret/AP_TOWER (2)/AP_TOWER.fbx.meta
 guid: 6ee1e8907afb40e4880adbb5b5c84071
+========
+guid: 92ef6c21ba568c342bed06a53a74dfe0
+>>>>>>>> Stashed changes:Assets/Character/select_tower/Green_Plus_Icon_0220125450_texture.fbx.meta
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Turret/AP_TOWER (2)/LIGHTNING (1)/LIGHTNING_TEXTURE.png.meta
 guid: 0535ff1ea8f1b6a4bae8a58e0612bc03
+========
+guid: e5de833d082b26341b3c4bb5031c8fc2
+>>>>>>>> Stashed changes:Assets/Turret/AD_TOWER (1)/AD_TEXTURE.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
