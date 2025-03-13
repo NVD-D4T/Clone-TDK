@@ -1,6 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
 --- !u!1 &2871738461374066945
+========
+--- !u!1 &6126127627318787549
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+--- !u!1 &5533804292781239988
+========
+--- !u!1 &117914063166925761
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,6 +20,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   - component: {fileID: 1146456686250709176}
   - component: {fileID: 6539541942779884511}
   - component: {fileID: 8846555632735884554}
@@ -15,42 +29,150 @@ GameObject:
   - component: {fileID: 7240467671552183100}
   m_Layer: 0
   m_Name: BOM
+========
+  - component: {fileID: 4194528769730369128}
+  - component: {fileID: 3574114948533008736}
+  - component: {fileID: 6968407946243179635}
+  - component: {fileID: 2506099555721358149}
+  - component: {fileID: 6407362872223754215}
+  m_Layer: 0
+  m_Name: CUNG
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  - component: {fileID: 327762145256325920}
+  - component: {fileID: 1341888146198212737}
+  - component: {fileID: 3249245052751625832}
+  - component: {fileID: 7873128835030628967}
+  - component: {fileID: 1067705552175476978}
+  m_Layer: 0
+  m_Name: Shop
+========
+  - component: {fileID: 4176989595626870313}
+  - component: {fileID: 266334658804846114}
+  - component: {fileID: 949188601963584339}
+  - component: {fileID: 3957546679798079069}
+  - component: {fileID: 5995574828603916220}
+  m_Layer: 0
+  m_Name: BOM
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
 --- !u!4 &1146456686250709176
+========
+--- !u!4 &4194528769730369128
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+--- !u!4 &327762145256325920
+========
+--- !u!4 &4176989595626870313
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   m_GameObject: {fileID: 2871738461374066945}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -13.218, y: 0.26, z: 9.7831}
   m_LocalScale: {x: 15.82515, y: 15.82515, z: 15.82515}
+========
+  m_GameObject: {fileID: 6126127627318787549}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.128542, y: 0.097801715, z: 26.189795}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3268169658972818588}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
 --- !u!33 &6539541942779884511
+========
+--- !u!33 &3574114948533008736
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  m_GameObject: {fileID: 5533804292781239988}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -15.316, y: 0.87699, z: -12.985}
+  m_LocalScale: {x: 39.126167, y: 39.126167, z: 39.126167}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!33 &1341888146198212737
+========
+  m_GameObject: {fileID: 117914063166925761}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.461, y: 0.95777, z: 27.961}
+  m_LocalScale: {x: 25.047, y: 25.047, z: 25.047}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &266334658804846114
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   m_GameObject: {fileID: 2871738461374066945}
   m_Mesh: {fileID: 6362250222578793112, guid: 0972cb92ff1200640a39a013dbfde4e9, type: 3}
 --- !u!23 &8846555632735884554
+========
+  m_GameObject: {fileID: 6126127627318787549}
+  m_Mesh: {fileID: 3313069152781804913, guid: 2992be1296900d84ba4556071dc03302, type: 3}
+--- !u!23 &6968407946243179635
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  m_GameObject: {fileID: 5533804292781239988}
+  m_Mesh: {fileID: 1064981722482968609, guid: 798e1ee245a8cd74cbb148e55aa7d3fd, type: 3}
+--- !u!23 &3249245052751625832
+========
+  m_GameObject: {fileID: 117914063166925761}
+  m_Mesh: {fileID: 6362250222578793112, guid: d2c9fe9d6c3768a4d9dae47b0bdc34b5, type: 3}
+--- !u!23 &949188601963584339
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   m_GameObject: {fileID: 2871738461374066945}
+========
+  m_GameObject: {fileID: 6126127627318787549}
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  m_GameObject: {fileID: 5533804292781239988}
+========
+  m_GameObject: {fileID: 117914063166925761}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -67,7 +189,19 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   - {fileID: 2100000, guid: f42d81e89da62544cbc2025fbfdf9b70, type: 2}
+========
+  - {fileID: 2100000, guid: c6f88744e87bb0d4281964e275e45051, type: 2}
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  - {fileID: 2100000, guid: 4c20106f022f849439a94235181a9097, type: 2}
+========
+  - {fileID: 2100000, guid: ade961fb147437348a7028a3a153221d, type: 2}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,28 +223,84 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
 --- !u!114 &4905200154418946459
+========
+--- !u!114 &2506099555721358149
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+--- !u!114 &7873128835030628967
+========
+--- !u!114 &3957546679798079069
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   m_GameObject: {fileID: 2871738461374066945}
+========
+  m_GameObject: {fileID: 6126127627318787549}
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83fcb36471f64f447ad3fabf0c5e9d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   speed: 30
   damage: 50
   bulletHead: {fileID: 3268169658972818588}
 --- !u!135 &7240467671552183100
 SphereCollider:
+========
+  speed: 10
+  damage: 20
+--- !u!65 &6407362872223754215
+BoxCollider:
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  m_GameObject: {fileID: 5533804292781239988}
+========
+  m_GameObject: {fileID: 117914063166925761}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93477bc75b751d54bbcdae152ae2c2e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+--- !u!65 &1067705552175476978
+========
+  speed: 10
+  damage: 50
+--- !u!65 &5995574828603916220
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+BoxCollider:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   m_GameObject: {fileID: 2871738461374066945}
+========
+  m_GameObject: {fileID: 6126127627318787549}
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  m_GameObject: {fileID: 5533804292781239988}
+========
+  m_GameObject: {fileID: 117914063166925761}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -119,10 +309,12 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/BOM.prefab
   m_Radius: 0.00943712
   m_Center: {x: 0.000010235002, y: -0.00056114, z: -0.00001022988}
 --- !u!1 &4171949372421745998
@@ -156,3 +348,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1146456686250709176}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+========
+  m_Size: {x: 0.02005069, y: 0.0019022799, z: 0.00177422}
+  m_Center: {x: 0.000006334856, y: -0.000026870024, z: 0.000095719966}
+>>>>>>>> Stashed changes:Assets/Prefab/CUNG.prefab
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
+  m_Size: {x: 0.019996207, y: 0.019975755, z: 0.0036249708}
+  m_Center: {x: 0.000010164454, y: -0.000010235238, z: -0.000010184946}
+========
+  m_Size: {x: 0.015069689, y: 0.018874237, z: 0.0150617985}
+  m_Center: {x: 0.000010235001, y: -0.00056113995, z: -0.000010229879}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+>>>>>>> Stashed changes

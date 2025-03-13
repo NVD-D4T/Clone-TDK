@@ -1516,7 +1516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 150
   currentHealth: 0
-  currencyReward: 10
+  currencyReward: 15
 --- !u!114 &944068369031184582
 MonoBehaviour:
   m_ObjectHideFlags: 0

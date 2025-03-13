@@ -1,6 +1,14 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!1 &2525327273307649072
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+--- !u!1 &516943335467238007
+========
+--- !u!1 &5426944781658375895
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,6 +16,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 1556687187198879445}
   - component: {fileID: 4507215425457639769}
   - component: {fileID: 6843751222903121150}
@@ -16,17 +25,41 @@ GameObject:
   - component: {fileID: 3519631875592523140}
   m_Layer: 0
   m_Name: TurretType1
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  - component: {fileID: 3415949606857157833}
+  m_Layer: 0
+  m_Name: transform
+========
+  - component: {fileID: 545294245943137787}
+  - component: {fileID: 798632866599657751}
+  - component: {fileID: 5923038662199965048}
+  - component: {fileID: 4243325427874306284}
+  - component: {fileID: 6827676262816712567}
+  m_Layer: 0
+  m_Name: TurretType1
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &1556687187198879445
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+--- !u!4 &3415949606857157833
+========
+--- !u!4 &545294245943137787
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 2525327273307649072}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
@@ -38,20 +71,103 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4507215425457639769
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  m_GameObject: {fileID: 516943335467238007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00695, y: 0.009937, z: 0.002348}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8493535231139252653}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4772824023098285088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8493535231139252653}
+  - component: {fileID: 7106344708218312435}
+  - component: {fileID: 9064625553838994847}
+  - component: {fileID: 4214444278082772175}
+  - component: {fileID: 8447554883577053661}
+  - component: {fileID: -7084033495648637265}
+  m_Layer: 0
+  m_Name: TurretType2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8493535231139252653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4772824023098285088}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.518177, y: 1.206, z: 5.381193}
+  m_LocalScale: {x: 100, y: 95.1, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3415949606857157833}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7106344708218312435
+========
+  m_GameObject: {fileID: 5426944781658375895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.237186, y: 0.74959487, z: 26.818121}
+  m_LocalScale: {x: 210.29999, y: 210.29999, z: 210.29999}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 2903862561158138076}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &798632866599657751
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 2525327273307649072}
   m_Mesh: {fileID: -1570759945268225116, guid: a852b794b181c124b9f493577f8d01c7, type: 3}
 --- !u!23 &6843751222903121150
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  m_GameObject: {fileID: 4772824023098285088}
+  m_Mesh: {fileID: 3313069152781804913, guid: e607ccf5a3b45a34fb75d7fce206030e, type: 3}
+--- !u!23 &9064625553838994847
+========
+  m_GameObject: {fileID: 5426944781658375895}
+  m_Mesh: {fileID: -1570759945268225116, guid: 5911b16ec85f22e49ad2130b17a49425, type: 3}
+--- !u!23 &5923038662199965048
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 2525327273307649072}
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  m_GameObject: {fileID: 4772824023098285088}
+========
+  m_GameObject: {fileID: 5426944781658375895}
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -68,7 +184,15 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 44eed14c270d5104d8157167a52b8367, type: 2}
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  - {fileID: 2100000, guid: 5fb6f972625c5084392742ac72e9d932, type: 2}
+========
+  - {fileID: 2100000, guid: 0d132f5e4debd644a858dd6c21c78d2a, type: 2}
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -90,13 +214,74 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!136 &7231042963556097032
 CapsuleCollider:
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+--- !u!114 &4214444278082772175
+========
+--- !u!114 &4243325427874306284
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+MonoBehaviour:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 2525327273307649072}
+=======
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  m_GameObject: {fileID: 4772824023098285088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473bedd9258222b4f83e77a08f945410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRange: 7
+  bulletPrefab: {fileID: 4623168921628215446, guid: 4180d832a4380a04aadd9d7544d73bb2, type: 3}
+  firePoint: {fileID: 3415949606857157833}
+  fireRate: 1
+  turretCost: 50
+--- !u!114 &8447554883577053661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4772824023098285088}
+========
+  m_GameObject: {fileID: 5426944781658375895}
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dd0352e20a06e4492db0f0237cd566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  detectionRange: 7
+  bulletPrefab: {fileID: 4623168921628215446, guid: 4180d832a4380a04aadd9d7544d73bb2, type: 3}
+  firePoint: {fileID: 3415949606857157833}
+  fireRate: 1
+  turretCost: 50
+--- !u!136 &-7084033495648637265
+CapsuleCollider:
+========
+  detectionRange: 12
+  bulletPrefab: {fileID: 6126127627318787549, guid: dc854dea9dc04c240ba291a7f9a65474, type: 3}
+  firePoint: {fileID: 2903862561158138076}
+  fireRate: 1
+--- !u!114 &6827676262816712567
+MonoBehaviour:
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<<< Updated upstream:Assets/Prefab/TurretType2.prefab
+  m_GameObject: {fileID: 4772824023098285088}
+>>>>>>> Stashed changes
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -109,6 +294,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Radius: 0.00954487
   m_Height: 0.014916
   m_Direction: 1
@@ -148,6 +334,25 @@ MonoBehaviour:
   fireRate: 1
   turretCost: 30
 --- !u!1 &4562394116190134372
+=======
+  m_Radius: 0.00817441
+  m_Height: 0.02001484
+  m_Direction: 1
+  m_Center: {x: 0.00003311038, y: -0.000011810102, z: -0.000022300053}
+========
+  m_GameObject: {fileID: 5426944781658375895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e849aa9fb7363e4baa7b45bdcd5811c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRange: 10
+  bulletPrefab: {fileID: 6126127627318787549, guid: dc854dea9dc04c240ba291a7f9a65474, type: 3}
+  firePoint: {fileID: 2903862561158138076}
+  fireRate: 1
+  turretCost: 30
+--- !u!1 &5675195211440956725
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,20 +360,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 6738861765944422539}
   m_Layer: 0
   m_Name: transform
+=======
+  - component: {fileID: 2903862561158138076}
+  m_Layer: 0
+  m_Name: GameObject
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &6738861765944422539
+=======
+--- !u!4 &2903862561158138076
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 4562394116190134372}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -178,3 +394,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1556687187198879445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 5675195211440956725}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00516, y: 0.00257, z: 0.00482}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 545294245943137787}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>>> Stashed changes:Assets/Prefab/TurretType1.prefab
+>>>>>>> Stashed changes

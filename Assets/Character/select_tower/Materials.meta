@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Character/select_tower/Materials.meta
 guid: 3ae99cc109ee2a847aba8351d2c786b4
+========
+guid: 8a6322a8968762249979c35c25d9fdec
+>>>>>>>> Stashed changes:Assets/Character/select_tower/Green_Plus_Icon_0220125450_texture.fbm.meta
+=======
+<<<<<<<< Updated upstream:Assets/TURRET/AD_TOWER.meta
+guid: 6d4f4892f8321bd4bb5fcd0f6429fdef
+========
+guid: c6474392057878540864fb121090bc6c
+>>>>>>>> Stashed changes:Assets/Character/select_tower/Materials.meta
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -50,7 +50,12 @@ public class TurretPurchase : MonoBehaviour
         if (playerCurrency != null && playerCurrency.SpendCurrency(turretCost))
         {
             // Thay đổi vị trí để trụ đặt phía trên đối tượng turretShop
+<<<<<<< Updated upstream
             Vector3 placementPosition = new Vector3(position.x, position.y + 0.7f, position.z);
+=======
+            Vector3 placementPosition = new Vector3(position.x, position.y + 2.0f, position.z);
+            
+>>>>>>> Stashed changes
             Instantiate(turretPrefab, placementPosition, Quaternion.identity);
         }
     }

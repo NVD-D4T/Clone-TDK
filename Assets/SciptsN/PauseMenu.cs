@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        Time.timeScale = 1f; // Đảm bảo game chạy lại bình thường
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Load lại map hiện tại
+        Time.timeScale = 1; // Đặt lại Time.timeScale
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Tải lại scene hiện tại
     }
 }

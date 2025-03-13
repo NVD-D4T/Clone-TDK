@@ -11,6 +11,7 @@ public class Spawner : MonoBehaviour
     public Transform spawnPoint;
     public Button spawnButton;
     public Canvas canvas;
+    public PlayerHealth playerHealth; // Tham chiếu đến PlayerHealth script
     private int currentWave = 0;
 
     void Start()
@@ -52,22 +53,26 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < type1Count; i++)
         {
             SpawnEnemy(enemyType1Prefab);
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
         }
         for (int i = 0; i < type2Count; i++)
         {
             SpawnEnemy(enemyType2Prefab);
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.3f);
         }
         for (int i = 0; i < type3Count; i++)
         {
             SpawnEnemy(enemyType3Prefab);
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.2f);
         }
         currentWave++;
         if (currentWave < 3)
         {
             StartCoroutine(StartWaveAfterDelay(15f)); // Chuyển sang đợt quái tiếp theo sau 15 giây
+        }
+        else
+        {
+            StartCoroutine(CheckForWinCondition());
         }
     }
 
@@ -93,5 +98,14 @@ public class Spawner : MonoBehaviour
     bool HasActiveEnemies()
     {
         return GameObject.FindWithTag("Enemy") != null;
+    }
+
+    IEnumerator CheckForWinCondition()
+    {
+        while (HasActiveEnemies())
+        {
+            yield return new WaitForSeconds(1f);
+        }
+        playerHealth.CheckWinCondition(); // Gọi phương thức kiểm tra điều kiện chiến thắng
     }
 }

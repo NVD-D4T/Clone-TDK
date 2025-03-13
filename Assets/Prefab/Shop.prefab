@@ -1,6 +1,14 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
 --- !u!1 &5533804292781239988
+========
+--- !u!1 &117914063166925761
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+--- !u!1 &5379821924554474583
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,6 +16,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   - component: {fileID: 327762145256325920}
   - component: {fileID: 1341888146198212737}
   - component: {fileID: 3249245052751625832}
@@ -15,41 +25,112 @@ GameObject:
   - component: {fileID: 1067705552175476978}
   m_Layer: 0
   m_Name: Shop
+========
+  - component: {fileID: 4176989595626870313}
+  - component: {fileID: 266334658804846114}
+  - component: {fileID: 949188601963584339}
+  - component: {fileID: 3957546679798079069}
+  - component: {fileID: 5995574828603916220}
+  m_Layer: 0
+  m_Name: BOM
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  - component: {fileID: 5146920764718128235}
+  - component: {fileID: 8143274341787649429}
+  - component: {fileID: 6467650925834862888}
+  - component: {fileID: 1818770411641343570}
+  - component: {fileID: 5619264287181270990}
+  m_Layer: 0
+  m_Name: Shop
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
 --- !u!4 &327762145256325920
+========
+--- !u!4 &4176989595626870313
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+--- !u!4 &5146920764718128235
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   m_GameObject: {fileID: 5533804292781239988}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -15.316, y: 0.87699, z: -12.985}
   m_LocalScale: {x: 39.126167, y: 39.126167, z: 39.126167}
+=======
+  m_GameObject: {fileID: 5379821924554474583}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.88694954, y: 0.8783739, z: 13.606398}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!33 &1341888146198212737
+========
+  m_GameObject: {fileID: 117914063166925761}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.461, y: 0.95777, z: 27.961}
+  m_LocalScale: {x: 25.047, y: 25.047, z: 25.047}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &266334658804846114
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+--- !u!33 &8143274341787649429
+>>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   m_GameObject: {fileID: 5533804292781239988}
   m_Mesh: {fileID: 1064981722482968609, guid: 798e1ee245a8cd74cbb148e55aa7d3fd, type: 3}
 --- !u!23 &3249245052751625832
+========
+  m_GameObject: {fileID: 117914063166925761}
+  m_Mesh: {fileID: 6362250222578793112, guid: d2c9fe9d6c3768a4d9dae47b0bdc34b5, type: 3}
+--- !u!23 &949188601963584339
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  m_GameObject: {fileID: 5379821924554474583}
+  m_Mesh: {fileID: 1064981722482968609, guid: 92ef6c21ba568c342bed06a53a74dfe0, type: 3}
+--- !u!23 &6467650925834862888
+>>>>>>> Stashed changes
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   m_GameObject: {fileID: 5533804292781239988}
+========
+  m_GameObject: {fileID: 117914063166925761}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  m_GameObject: {fileID: 5379821924554474583}
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -66,7 +147,15 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   - {fileID: 2100000, guid: 4c20106f022f849439a94235181a9097, type: 2}
+========
+  - {fileID: 2100000, guid: ade961fb147437348a7028a3a153221d, type: 2}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  - {fileID: 2100000, guid: 88003061ef5388a4799d87eef373a2e6, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,25 +177,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
 --- !u!114 &7873128835030628967
+========
+--- !u!114 &3957546679798079069
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+--- !u!114 &1818770411641343570
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   m_GameObject: {fileID: 5533804292781239988}
+========
+  m_GameObject: {fileID: 117914063166925761}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  m_GameObject: {fileID: 5379821924554474583}
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93477bc75b751d54bbcdae152ae2c2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
 --- !u!65 &1067705552175476978
+========
+  speed: 10
+  damage: 50
+--- !u!65 &5995574828603916220
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+--- !u!65 &5619264287181270990
+>>>>>>> Stashed changes
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   m_GameObject: {fileID: 5533804292781239988}
+========
+  m_GameObject: {fileID: 117914063166925761}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  m_GameObject: {fileID: 5379821924554474583}
+>>>>>>> Stashed changes
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -119,5 +242,15 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Prefab/Shop.prefab
   m_Size: {x: 0.019996207, y: 0.019975755, z: 0.0036249708}
   m_Center: {x: 0.000010164454, y: -0.000010235238, z: -0.000010184946}
+========
+  m_Size: {x: 0.015069689, y: 0.018874237, z: 0.0150617985}
+  m_Center: {x: 0.000010235001, y: -0.00056113995, z: -0.000010229879}
+>>>>>>>> Stashed changes:Assets/Prefab/BOM.prefab
+=======
+  m_Size: {x: 0.01999621, y: 0.019975755, z: 0.0036249708}
+  m_Center: {x: 0.000010164455, y: -0.000010235238, z: -0.000010184946}
+>>>>>>> Stashed changes
